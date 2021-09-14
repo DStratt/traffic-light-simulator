@@ -1,18 +1,14 @@
 /**
  * File: 	Driver.java
- * Author: 	Diane Stratton
- * Class: 	Hood CS 504, Fall 2015
- * Project: Project 2 - Traffic Simulator
- * Date: 	14 October 2015
- * Version:	1
+ * Project: 	Project 2 - Traffic Simulator
  * Instructions:  See README file
  */
 
 public class Driver
-{ //start of class Driver
+{
 
 	public static void main(String[] args)
-	{ //start of method main
+	{
 		
 		String filename = null; //flow rate input filename
 		try
@@ -35,6 +31,6 @@ public class Driver
 		//providing the input filename to the constructor
 		TrafficSim sim = new TrafficSim(filename);
 		
-	} //end of method main
+	}
 
-} //end of class Driver
+}
