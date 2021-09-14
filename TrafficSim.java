@@ -1,10 +1,6 @@
 /**
  * File: 	TrafficSim.java
- * Author: 	Diane Stratton
- * Class: 	Hood CS 504, Fall 2015
- * Project: Project 2 - Traffic Simulator
- * Date: 	10 October 2015
- * Version:	1
+ * Project: 	Project 2 - Traffic Simulator
  * Instructions:  See README file
  */
 
@@ -91,7 +87,7 @@ public class TrafficSim
 			truckFlowRate = Integer.parseInt(tokenizer.nextToken());
 			
 			switch(direction) //use direction switch to assign rates
-			{ //start switch
+			{
 			case 'N': //northbound
 			{
 				flowRate.setNorthFlowRateCars(carFlowRate);
@@ -121,7 +117,7 @@ public class TrafficSim
 				System.out.println("Error.");
 				ratesAssigned = false;
 			}		
-			} //end switch	
+			}
 		}
 		infile.close(); //close input stream
 		if(debugFileRead)
@@ -129,7 +125,7 @@ public class TrafficSim
 		ratesAssigned = true; //no errors encountered
 		return ratesAssigned; //return ratesAssigned
 
-	} //end method readFromFile
+	}
 	
 	/**
 	 * Adds a new vehicle to the appropriate queue.
@@ -141,7 +137,7 @@ public class TrafficSim
 	private void addVehicle(char direction, Vehicle x)
 	{
 		switch(direction) //use switch to assign to correct queue
-		{ //start switch
+		{
 		case 'N': //add to northbound
 		{
 			northbound.add(x);
@@ -164,7 +160,7 @@ public class TrafficSim
 		}
 		default:
 		{ System.out.println("Error."); }
-		} //end switch
+		}
 	}
 	
 	/**
