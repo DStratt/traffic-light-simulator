@@ -1,10 +1,6 @@
 /**
  * File: 	Vehicle.java
- * Author: 	Diane Stratton
- * Class: 	Hood CS 504, Fall 2015
- * Project: Project 2 - Traffic Simulator
- * Date: 	10 October 2015
- * Version:	1
+ * Project: 	Project 2 - Traffic Simulator
  * Instructions:  See README file
  */
 
