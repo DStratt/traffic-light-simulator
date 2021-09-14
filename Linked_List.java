@@ -1,10 +1,6 @@
 /**
  * File: 	Linked_List.java
- * Author: 	Diane Stratton
- * Class: 	Hood CS 504, Fall 2015
- * Project: Project 2 - Traffic Simulator
- * Date: 	10 October 2015
- * Version:	1
+ * Project: 	Project 2 - Traffic Simulator
  * Instructions:  See README file
  */
 
@@ -18,13 +14,13 @@ public class Linked_List
 	 *  and CURSOR to null.
 	 */
 	public Linked_List()
-	{ //begin constructor
+	{
 		
 		FRONT = null;
 		REAR = null;
 		CURSOR = null;
 		
-	} //end constructor
+	}
 	
 	/**
 	 * Determines if Linked_List instance is empty
@@ -49,7 +45,7 @@ public class Linked_List
 	 *    count (seconds) when the Vehicle was removed from the queue, as an int   
 	 */
 	public void addResultVehicle(char type, int timeEntered, int timeRemoved)
-	{ //start of method addResultVehicle
+	{
 		
 		INSERT = new ResultVehicle(); //creates new ResultVehicle in Linked_List
 		INSERT.setType(type); //sets ResultVehicle type
@@ -72,7 +68,7 @@ public class Linked_List
 		}
 		REAR = INSERT; //reset REAR pointer to point to new ResultVehicle
 		
-	} //end of method addResultVehicle
+	}
 	
 	/**
 	 * Counts total number of ResultVehicles in Linked_List instance.
