@@ -21,7 +21,7 @@
     <mkdir dir="${dist.dir}" />
   </target>
 
-  <!-- Compiles the java code (including the usage of library for JUnit -->
+  <!-- Compiles the java code (including the usage of library for JUnit) -->
   <target name="compile" depends="clean, makedir">
     <javac includeantruntime="false" srcdir="${src.dir}" destdir="${build.dir}">
     </javac>
