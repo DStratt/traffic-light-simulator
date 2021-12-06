@@ -16,5 +16,9 @@ Project Constraints:
     - Time is simulated.
     - Vehicle arrival time will always be evenly divisible by 60. 
     - The flow rate will not change during a 2-minute simulation.
-
+- Intersection is printed to screen after each "second" to show traffic movement.
+- After 120 seconds, print:
+    - Total number of vehicles that went through the intersection.
+    - Number of cars and trucks that went through intersection.
+    - Average wait time for the intersection.   
 
