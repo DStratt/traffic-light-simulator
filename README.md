@@ -22,3 +22,13 @@ Project Constraints:
     - Number of cars and trucks that went through intersection.
     - Average wait time for the intersection.   
 
+To Run from Terminal:
+- Standard method:
+    - Copy all java files into a main directory.
+    - Select a sample input file, copy into the main directory, and rename to "input.txt".
+    - Compile and run using "javac Driver.java" and "java Driver.java" commands.
+- Optional - can run using Ant:
+    - Select a sample input file, copy into a main directory, and rename to "input.txt".
+    - Copy build.xml file into main directory.
+    - Create src directory in main directory, and copy java files into it.
+    - Change to main directory and enter "ant run" command.
