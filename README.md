@@ -27,7 +27,7 @@ To Run from Terminal:
     - Copy all java files into a main directory.
     - Select a sample input file, copy into the main directory, and rename to "input.txt".
     - Compile and run using "javac Driver.java" and "java Driver.java" commands.
-- Optional - can run using Ant:
+- Optional - can run using Ant (requires Ant install):
     - Select a sample input file, copy into a main directory, and rename to "input.txt".
     - Copy build.xml file into main directory.
     - Create src directory in main directory, and copy java files into it.
